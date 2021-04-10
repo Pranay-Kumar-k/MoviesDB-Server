@@ -10,14 +10,15 @@ const newToken = (user) => {
 }
 
 const register = async(req,res) => {
+    console.log(req.body)
     try{
         const user = await User.create(req.body)
-        const token = newToken(user);
-        console.log(token)
-        return res.status(201).json({data:{token}})
+        // const token = newToken(user);
+        console.log(user)
+        return res.status(201).json({status:"success", message:"Registration successful"})
     }
     catch(error) {
-        res.status(500).json({status:"failed", message:"User already exists"});
+        res.status(500).json({status:"failed", message: "Registration Failed"+error});
     }
     
 } 
@@ -52,7 +53,8 @@ const login = async(req,res) => {
 
     const token  = newToken(user);
 
-    return res.status(200).json({data:{token}});
+    return res.status(200).json({data:{token,user}});
+    
 }
 
 module.exports = {register,login}

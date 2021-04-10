@@ -9,15 +9,21 @@ const {register,login} = require('./controllers/auth.controller')
 
 const userController = require("./controllers/user.controller");
 
+const allUsersController = require("./controllers/users.controller");
+
+const getAllUsers = require("./controllers/users.controller");
+
 const app = express();
 
 app.use(express.json());
 
-app.post("/register", register);
+app.post("/account/register", register);
 
-app.post("/login", login);
+app.post("/account/login", login);
 
-app.use("/users", userController)
+app.use("/user", userController);
+
+app.use("/users", allUsersController);
 
 const start = async () => {
     await connect();
