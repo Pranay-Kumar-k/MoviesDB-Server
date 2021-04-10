@@ -11,7 +11,7 @@ const userController = require("./controllers/user.controller");
 
 const allUsersController = require("./controllers/users.controller");
 
-const getAllUsers = require("./controllers/users.controller");
+const moviesController = require("./controllers/movie.controller");
 
 const app = express();
 
@@ -24,6 +24,8 @@ app.post("/account/login", login);
 app.use("/user", userController);
 
 app.use("/users", allUsersController);
+
+app.use("/movie", moviesController);
 
 const start = async () => {
     await connect();

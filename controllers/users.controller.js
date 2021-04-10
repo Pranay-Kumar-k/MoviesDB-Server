@@ -10,6 +10,10 @@ const getAllUsers = async (req,res) => {
     return res.status(200).json({data: users})
 }
 
-router.get("/", getAllUsers);
+const postMovie = async(req,res) => {
+    const {id,movie_title,genre,released_year} = req.body;
+    
+}
 
+router.get("/", getAllUsers);
 module.exports = router;
