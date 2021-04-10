@@ -1,6 +1,7 @@
 // creating a model for user
 
 const mongoose = require("mongoose");
+const bcrypt = require("bcrypt");
 
 const userSchema = new mongoose.Schema({
     phone: {
@@ -9,11 +10,27 @@ const userSchema = new mongoose.Schema({
         unique:true,
         minLength:10
       },
-      password: {
+    password: {
         type: String,
         required: true,
-        min: 6,
+        minLength: 6,
       },
 },{timestamps:true}, {versionKey:false})
+
+// Hashing the password to hide it
+userSchema.pre("save", function(next) {
+  if(!this.isModified("password")) {
+    return next();
+  }
+  else {
+    bcrypt.hash(this.password, 6, (err,hash) => {
+      if(err) {
+        return next(err);
+      }
+      this.password = hash;
+      next();
+    })
+  }
+});
 
 module.exports = mongoose.model("user", userSchema);
