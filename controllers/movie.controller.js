@@ -4,6 +4,8 @@ const router = express.Router();
 
 const Movie = require("../models/movie.model");
 
+const protect = require("../middlewares/protect");
+
 // Route to get all the movies
 const getMovies = async (req,res) => {
     try {
@@ -60,10 +62,10 @@ const deleteMovie = (req,res) => {
 }
 
 
-router.get("/", getMovies);
-router.post("/", postMovie);
-router.get("/:id", getMovieById);
-router.put("/:id", editMovie);
-router.delete("/:id", deleteMovie);
+router.get("/",protect, getMovies);
+router.post("/",protect, postMovie);
+router.get("/:id",protect, getMovieById);
+router.put("/:id",protect, editMovie);
+router.delete("/:id",protect, deleteMovie);
 
 module.exports = router;
