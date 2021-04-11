@@ -18,7 +18,7 @@ const register = async(req,res) => {
         return res.status(201).json({status:"success", message:"Registration successful"})
     }
     catch(error) {
-        res.status(500).json({status:"failed", message: "Registration Failed"+error});
+        res.status(500).json({status:"failed", message: "Registration Failed - User already exists"+error});
     }
     
 } 
