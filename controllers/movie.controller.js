@@ -16,13 +16,12 @@ const getMovies = async (req,res) => {
 }
 
 // Create a new movie item and post it to database
-const postMovie = async (req,res) => {
-    const {id,movie_title,genre,released_year} = req.body;
+const postMovie = (req,res) => {
+    const {movie_title,genre,released_year} = req.body;
+    // console.log(req.body.movie_title)
     try{
-        const newMovie = new Movie({id,movie_title,genre,released_year})
-        await newMovie.save();
-        // console.log(newMovie);
-        return res.status(201).json({status:"success", message:"New movie added successfully"});
+        Movie.create({movie_title,genre,released_year})
+        .then((movie) => res.status(201).json({movie}))
     }
     catch(err) {
         return res.status(400).json({status:"failed", message:"Post movie not successful"})
@@ -34,7 +33,7 @@ const getMovieById = async (req,res) => {
     const {id} = req.params;
     console.log(id)
     try {
-        const movie = await Movie.findOne({id}).lean().exec()
+        const movie = await Movie.findOne({_id:id}).lean().exec()
         console.log(movie,id)
         return res.status(200).json({data:movie})
     }
@@ -43,8 +42,28 @@ const getMovieById = async (req,res) => {
     }
 }
 
+// Edit a movie and update it on Database
+
+const editMovie = (req,res) => {
+    const {movie_title,genre,released_year} = req.body
+    Movie.findOneAndUpdate({
+        movie_title,genre,released_year
+    }).then((movie) => res.status(202).json({status:"success", message:"record update successfull"}))
+    .catch(err => res.status(404).json({status:"failed", message:"record not found"})
+)}
+
+const deleteMovie = (req,res) => {
+    const _id = req.params.id;
+    Movie.findByIdAndDelete(_id)
+    .then(() => res.status(200).json({status:"success", message:"Delete movie successful"}))
+    .catch((err) => res.status(404).json({status:"failure", message:"record not found"}));
+}
+
 
 router.get("/", getMovies);
 router.post("/", postMovie);
 router.get("/:id", getMovieById);
+router.put("/:id", editMovie);
+router.delete("/:id", deleteMovie);
+
 module.exports = router;

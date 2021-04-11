@@ -1,251 +1,502 @@
-[{
-    "id": "b65d0bad-c3f6-473f-9a71-e7621b85a88b",
-    "movie_title": "Miss March",
-    "genre": "Comedy",
-    "released_year": 1994
-  }, {
-    "id": "44907d71-ba89-486b-8319-031f8960ca4a",
-    "movie_title": "Metsän tarina",
+[
+  {
+    "movie_title": "World According to Monsanto, The (monde selon Monsanto, Le)",
     "genre": "Documentary",
-    "released_year": 1991
-  }, {
-    "id": "291bcb91-0a26-490a-8b99-9bdfb7fc35ec",
-    "movie_title": "Tracers",
-    "genre": "Action",
-    "released_year": 2008
-  }, {
-    "id": "171c8a27-91fb-4e49-b774-5d92bd85477d",
-    "movie_title": "King's Game (Kongekabale)",
-    "genre": "Thriller",
-    "released_year": 1997
-  }, {
-    "id": "6913b468-ccc8-4493-b8b8-b0528451c5f4",
-    "movie_title": "Twilight",
-    "genre": "Crime|Drama|Thriller",
-    "released_year": 2012
-  }, {
-    "id": "7a6c2761-611f-4046-8c27-e72bad20f071",
-    "movie_title": "Death Defying Acts",
-    "genre": "Drama|Romance|Thriller",
-    "released_year": 2006
-  }, {
-    "id": "fdd3712c-96e2-48ea-a35d-b80594e09727",
-    "movie_title": "Father Goose",
-    "genre": "Adventure|Comedy|Romance|War",
-    "released_year": 1998
-  }, {
-    "id": "116d6a1d-d56f-4471-9129-b6d48cae5753",
-    "movie_title": "Fighting Prince of Donegal, The",
-    "genre": "Action|Adventure",
-    "released_year": 2003
-  }, {
-    "id": "24cef542-ee59-4d0b-a36d-4c6346e012e8",
-    "movie_title": "Way Out West",
-    "genre": "Comedy|Western",
-    "released_year": 2007
-  }, {
-    "id": "661e0de8-9cc2-4fc4-b20e-d90ed76dd514",
-    "movie_title": "Pepi, Luci, Bom (Pepi, Luci, Bom y Otras Chicas del Montón)",
-    "genre": "Comedy",
-    "released_year": 1993
-  }, {
-    "id": "69df6af1-9343-4df0-9201-34ed3eb0d213",
-    "movie_title": "Roommates",
-    "genre": "Comedy|Drama",
-    "released_year": 2002
-  }, {
-    "id": "c28fd800-10ac-4bd1-8305-ca67b4a1cc4d",
-    "movie_title": "Last Waltz, The",
-    "genre": "Documentary",
-    "released_year": 2001
-  }, {
-    "id": "93b2c3ca-4cae-4878-8b4f-edf9a0ce201f",
-    "movie_title": "Extracted",
-    "genre": "Drama|Sci-Fi",
-    "released_year": 1993
-  }, {
-    "id": "f59320b8-b4e2-409c-8881-0bd26b19f44a",
-    "movie_title": "Big Momma's House 2",
-    "genre": "Action|Comedy|Crime",
-    "released_year": 1994
-  }, {
-    "id": "b1ba3c72-600f-4237-a7ea-e0a57ae8b178",
-    "movie_title": "Stand Up and Cheer!",
-    "genre": "Comedy|Musical",
-    "released_year": 1948
-  }, {
-    "id": "ddee00f0-38d5-471e-a97d-6b4bde055fe7",
-    "movie_title": "Dirt",
-    "genre": "Comedy|Crime",
-    "released_year": 1962
-  }, {
-    "id": "eb216029-4cb9-4a87-9862-0bc6c02f2b3b",
-    "movie_title": "Commare secca, La (Grim Reaper, The)",
-    "genre": "Drama|Mystery",
-    "released_year": 1998
-  }, {
-    "id": "8fb78362-36c8-4a6d-ba64-278b1d7264d1",
-    "movie_title": "Shunning, The",
-    "genre": "Drama",
-    "released_year": 2002
-  }, {
-    "id": "049d1c0d-de91-4ffa-a42f-2f9090bf24cc",
-    "movie_title": "Air Guitar Nation",
-    "genre": "Comedy|Documentary|Musical",
-    "released_year": 2003
-  }, {
-    "id": "74e39d08-9260-434e-9a54-c86c5278f66e",
-    "movie_title": "Sixth of the World, A (Shestaya chast mira)",
-    "genre": "Documentary",
-    "released_year": 1995
-  }, {
-    "id": "2e12d066-7eda-4cd4-8ce4-24c17714993f",
-    "movie_title": "Ivory Tower",
-    "genre": "Documentary",
-    "released_year": 2003
-  }, {
-    "id": "03fa1518-8fcd-4a0c-986f-141c929b8e03",
-    "movie_title": "Miracle in Milan (Miracolo a Milano)",
-    "genre": "Comedy|Drama|Fantasy",
-    "released_year": 1993
-  }, {
-    "id": "4d6bf394-3c57-43f2-81b5-210160ba6a3a",
-    "movie_title": "Call Me Madam",
-    "genre": "Comedy|Musical|Romance",
-    "released_year": 2008
-  }, {
-    "id": "1181488a-24ca-40ef-9fc9-7a69e71fa045",
-    "movie_title": "Wartorn: 1861-2010",
-    "genre": "Documentary|War",
-    "released_year": 2007
-  }, {
-    "id": "9f1e3ec0-2da7-4c27-be19-1f637b454ae2",
-    "movie_title": "Throne of Blood (Kumonosu jô)",
-    "genre": "Action|Drama|Thriller|War",
-    "released_year": 2008
-  }, {
-    "id": "697275a6-fea3-4848-b9e9-bb1ae9de0e6e",
-    "movie_title": "Goat, The",
-    "genre": "Comedy",
     "released_year": 2000
-  }, {
-    "id": "39d0f431-f75e-475c-a77d-fc4120029370",
-    "movie_title": "Paris, Texas",
-    "genre": "Drama|Romance",
-    "released_year": 1995
-  }, {
-    "id": "c8beeb9e-52cc-4ef6-a96f-294dcd0bfb36",
-    "movie_title": "El Hada Buena - Una Fábula Peronista",
-    "genre": "Comedy|Sci-Fi",
-    "released_year": 2006
-  }, {
-    "id": "8cbb86e5-7aa7-40e0-a44b-1cb53609c93d",
-    "movie_title": "Pokrajina St.2",
-    "genre": "Thriller",
-    "released_year": 1959
-  }, {
-    "id": "d878ea01-da70-45fe-a4a1-75af3203b5f0",
-    "movie_title": "Bird People",
-    "genre": "Drama|Fantasy|Romance",
-    "released_year": 1986
-  }, {
-    "id": "f2bbdc89-b2a3-4b55-a929-35d0ab4959e4",
-    "movie_title": "Children Underground",
-    "genre": "Documentary",
-    "released_year": 2008
-  }, {
-    "id": "41cf508a-0363-4baf-9e18-09a0cd075d9c",
-    "movie_title": "Story Written with Water, A (Mizu de kakareta monogatari)",
+  },
+  {
+    "movie_title": "Lucky One, The",
     "genre": "Drama",
+    "released_year": 1997
+  },
+  {
+    "movie_title": "Boyfriends and Girlfriends (a.k.a. My Girlfriend's Boyfriend) (L'ami de mon amie)",
+    "genre": "Comedy",
+    "released_year": 2006
+  },
+  {
+    "movie_title": "Games of Love and Chance (L'esquive)",
+    "genre": "Drama|Romance",
+    "released_year": 1993
+  },
+  {
+    "movie_title": "Window, The",
+    "genre": "Drama|Film-Noir|Thriller",
+    "released_year": 1993
+  },
+  {
+    "movie_title": "Sexmission (Seksmisja)",
+    "genre": "Adventure|Comedy|Sci-Fi",
+    "released_year": 1992
+  },
+  {
+    "movie_title": "1984 (Nineteen Eighty-Four)",
+    "genre": "Drama|Sci-Fi",
+    "released_year": 1999
+  },
+  {
+    "movie_title": "Mighty Heart, A",
+    "genre": "Drama|Thriller",
+    "released_year": 2013
+  },
+  {
+    "movie_title": "Life and Nothing But (Vie et rien d'autre, La)",
+    "genre": "Drama",
+    "released_year": 2006
+  },
+  {
+    "movie_title": "Seven Thieves",
+    "genre": "Crime|Drama",
+    "released_year": 1995
+  },
+  {
+    "movie_title": "Bounty Killer",
+    "genre": "Action|Sci-Fi|Thriller",
+    "released_year": 2009
+  },
+  {
+    "movie_title": "Young & Beautiful",
+    "genre": "Drama",
+    "released_year": 2004
+  },
+  {
+    "movie_title": "Girls! Girls! Girls!",
+    "genre": "Comedy|Musical",
     "released_year": 1996
-  }, {
-    "id": "ceb12d62-7af1-450c-8230-5c247da105ef",
-    "movie_title": "Randy and the Mob",
+  },
+  {
+    "movie_title": "These Final Hours",
+    "genre": "Drama|Thriller",
+    "released_year": 1987
+  },
+  {
+    "movie_title": "Superpower",
+    "genre": "Documentary",
+    "released_year": 2000
+  },
+  {
+    "movie_title": "Last Flight of Noah's Ark, The",
+    "genre": "Adventure|Children|Comedy",
+    "released_year": 2006
+  },
+  {
+    "movie_title": "Beyond Therapy",
+    "genre": "Comedy",
+    "released_year": 2003
+  },
+  {
+    "movie_title": "Friday Night (Vendredi Soir)",
+    "genre": "Drama",
+    "released_year": 2004
+  },
+  {
+    "movie_title": "Prizefighter and the Lady, The",
+    "genre": "Comedy|Crime|Romance",
+    "released_year": 2011
+  },
+  {
+    "movie_title": "Boarding Gate",
+    "genre": "Thriller",
+    "released_year": 2012
+  },
+  {
+    "movie_title": "High Wind in Jamaica, A",
+    "genre": "Adventure|Drama",
+    "released_year": 1999
+  },
+  {
+    "movie_title": "British Sounds",
+    "genre": "Documentary",
+    "released_year": 2009
+  },
+  {
+    "movie_title": "Great Debaters, The",
+    "genre": "Drama",
+    "released_year": 2001
+  },
+  {
+    "movie_title": "Aliens",
+    "genre": "Action|Adventure|Horror|Sci-Fi",
+    "released_year": 2011
+  },
+  {
+    "movie_title": "Tavarataivas",
+    "genre": "Documentary",
+    "released_year": 2012
+  },
+  {
+    "movie_title": "Dangerous Davies: The Last Detective",
     "genre": "Comedy|Crime",
     "released_year": 2006
-  }, {
-    "id": "746d9205-5a15-49ca-9462-0260b3d3b106",
-    "movie_title": "Battle for Marjah, The",
-    "genre": "Documentary|War",
-    "released_year": 1984
-  }, {
-    "id": "bc1707db-21f9-42f9-abb3-419623f3233a",
-    "movie_title": "Karlsson Brothers (Bröderna Karlsson)",
-    "genre": "Comedy|Drama",
-    "released_year": 1996
-  }, {
-    "id": "67aac60d-e254-495a-bb4b-6a6ab8f63d03",
-    "movie_title": "Natural City",
-    "genre": "Action|Romance|Sci-Fi",
-    "released_year": 2009
-  }, {
-    "id": "6dfa18ae-bcc8-488d-8639-33d767546b30",
-    "movie_title": "Good Bye (Bé omid é didar)",
+  },
+  {
+    "movie_title": "Pursuit of Unhappiness, The (Anleitung zum Unglücklichsein)",
+    "genre": "Romance",
+    "released_year": 2002
+  },
+  {
+    "movie_title": "SUBWAYStories: Tales from the Underground",
     "genre": "Drama",
-    "released_year": 2005
-  }, {
-    "id": "00cdc1f5-7427-45fa-bfa5-5e4ae3d6cd62",
-    "movie_title": "Look Both Ways",
+    "released_year": 1993
+  },
+  {
+    "movie_title": "Kummelin jackpot",
+    "genre": "Comedy",
+    "released_year": 2006
+  },
+  {
+    "movie_title": "Jane Eyre",
     "genre": "Drama|Romance",
+    "released_year": 1993
+  },
+  {
+    "movie_title": "Sleeping with Other People",
+    "genre": "Comedy",
+    "released_year": 2007
+  },
+  {
+    "movie_title": "White Diamond, The",
+    "genre": "Documentary",
+    "released_year": 2002
+  },
+  {
+    "movie_title": "Directed by John Ford",
+    "genre": "Documentary",
     "released_year": 2010
-  }, {
-    "id": "7be04bc5-dc49-4602-82aa-cccc90f25a49",
-    "movie_title": "Green Room, The (a.k.a. Vanishing Fiancee) (La chambre verte)",
+  },
+  {
+    "movie_title": "In the Land of Women",
+    "genre": "Comedy|Drama|Romance",
+    "released_year": 2010
+  },
+  {
+    "movie_title": "Joke, The (Zert)",
     "genre": "Drama",
+    "released_year": 2012
+  },
+  {
+    "movie_title": "All About Actresses (Le bal des actrices)",
+    "genre": "Comedy|Drama",
+    "released_year": 1992
+  },
+  {
+    "movie_title": "Forest of Bliss",
+    "genre": "Documentary",
+    "released_year": 2007
+  },
+  {
+    "movie_title": "Irma Vep",
+    "genre": "Comedy|Drama",
+    "released_year": 2004
+  },
+  {
+    "movie_title": "Touch",
+    "genre": "Drama|Fantasy|Romance",
+    "released_year": 1997
+  },
+  {
+    "movie_title": "Steppenwolf",
+    "genre": "Drama",
+    "released_year": 2011
+  },
+  {
+    "movie_title": "One Flew Over the Cuckoo's Nest",
+    "genre": "Drama",
+    "released_year": 1994
+  },
+  {
+    "movie_title": "In Order Not to Be Here",
+    "genre": "(no genres listed)",
+    "released_year": 2010
+  },
+  {
+    "movie_title": "Dark Journey",
+    "genre": "Adventure|Romance|Thriller",
     "released_year": 2003
-  }, {
-    "id": "18a77381-1a81-4235-97b9-a63f14486230",
-    "movie_title": "Truth About Love, The",
+  },
+  {
+    "movie_title": "Five Minutes to Live",
+    "genre": "Crime|Drama|Thriller",
+    "released_year": 1996
+  },
+  {
+    "movie_title": "Fat City",
+    "genre": "Drama",
+    "released_year": 1995
+  },
+  {
+    "movie_title": "Psychosis",
+    "genre": "Crime|Horror|Mystery",
+    "released_year": 1994
+  },
+  {
+    "movie_title": "Riddick",
+    "genre": "Action|Sci-Fi|Thriller|IMAX",
+    "released_year": 2007
+  },
+  {
+    "movie_title": "Buud Yam",
+    "genre": "Drama",
+    "released_year": 1999
+  },
+  {
+    "movie_title": "Clink of Ice, The (a.k.a.: Sound of Ice Cubes, The) (Le bruit des glaçons)",
+    "genre": "Comedy|Drama",
+    "released_year": 1986
+  },
+  {
+    "movie_title": "Dr. Phibes Rises Again",
+    "genre": "Adventure|Comedy|Horror|Romance",
+    "released_year": 2006
+  },
+  {
+    "movie_title": "Tremors 4: The Legend Begins",
+    "genre": "Action|Comedy|Horror|Sci-Fi|Thriller|Western",
+    "released_year": 2012
+  },
+  {
+    "movie_title": "What Happens in Vegas...",
     "genre": "Comedy|Romance",
     "released_year": 2005
-  }, {
-    "id": "342125cd-b2b0-4014-955f-daeb59cf1c78",
-    "movie_title": "Invitation, The (Zaproszenie)",
-    "genre": "Drama",
-    "released_year": 2002
-  }, {
-    "id": "591d0dc5-b607-4a3a-9fe7-70e2b6f88c32",
-    "movie_title": "Small Circle of Friends, A",
-    "genre": "Drama",
-    "released_year": 2000
-  }, {
-    "id": "31a36227-18c9-4397-86fb-3e915cddb199",
-    "movie_title": "Crime Zone",
-    "genre": "Action|Film-Noir|Sci-Fi",
-    "released_year": 2009
-  }, {
-    "id": "f8e139ce-8719-4a21-a744-5f203d0d6253",
-    "movie_title": "Farah Goes Bang",
-    "genre": "Comedy",
-    "released_year": 1995
-  }, {
-    "id": "5c6aa173-4007-40c8-b87d-11312b3c17fb",
-    "movie_title": "Sister Act",
-    "genre": "Comedy|Crime",
-    "released_year": 2011
-  }, {
-    "id": "9d16b537-bb8e-4e0a-9dc0-ee257155cb7a",
-    "movie_title": "Hottest State, The",
-    "genre": "Drama",
-    "released_year": 2000
-  }, {
-    "id": "4aa961fc-ed82-403e-a558-842280a4118a",
-    "movie_title": "Tampopo",
-    "genre": "Comedy",
-    "released_year": 1994
-  }, {
-    "id": "90913ea8-4bf6-4eb7-ba7b-0dd368226ef8",
-    "movie_title": "10 Items or Less",
-    "genre": "Comedy|Drama|Romance",
-    "released_year": 2009
-  }, {
-    "id": "22d865a2-ff86-4c9a-aaaa-c58345b74916",
-    "movie_title": "Henry: Portrait of a Serial Killer, Part 2",
-    "genre": "Crime|Horror",
+  },
+  {
+    "movie_title": "The Blood of Fu Manchu",
+    "genre": "Adventure|Crime|Horror",
     "released_year": 2004
-  }, {
-    "id": "ddcfb5a4-4fbb-4183-b73a-3118d661c181",
-    "movie_title": "Legend of Sleepy Hollow, The",
-    "genre": "Comedy|Fantasy|Horror",
+  },
+  {
+    "movie_title": "Darwin's Nightmare",
+    "genre": "Documentary",
+    "released_year": 2012
+  },
+  {
+    "movie_title": "Ticked-Off Trannies with Knives",
+    "genre": "Action|Comedy|Crime|Horror|Thriller",
     "released_year": 2001
-  }]
+  },
+  {
+    "movie_title": "Dances with Wolves",
+    "genre": "Adventure|Drama|Western",
+    "released_year": 2003
+  },
+  {
+    "movie_title": "King Leopold's Ghost",
+    "genre": "Documentary",
+    "released_year": 1994
+  },
+  {
+    "movie_title": "Playmobil: The Secret of Pirate Island",
+    "genre": "Animation|Children",
+    "released_year": 1994
+  },
+  {
+    "movie_title": "Producers, The",
+    "genre": "Comedy",
+    "released_year": 1998
+  },
+  {
+    "movie_title": "Above Us Only Sky",
+    "genre": "Drama",
+    "released_year": 1999
+  },
+  {
+    "movie_title": "Nameless Gangster (Bumchoiwaui junjaeng)",
+    "genre": "Crime|Thriller",
+    "released_year": 2001
+  },
+  {
+    "movie_title": "Coming Out",
+    "genre": "Drama",
+    "released_year": 2004
+  },
+  {
+    "movie_title": "Change of Address (Changement d'adresse)",
+    "genre": "Comedy",
+    "released_year": 1999
+  },
+  {
+    "movie_title": "Formula 51",
+    "genre": "Action|Comedy|Crime|Thriller",
+    "released_year": 2005
+  },
+  {
+    "movie_title": "Mysterious Skin",
+    "genre": "Drama|Mystery",
+    "released_year": 1993
+  },
+  {
+    "movie_title": "Tobor the Great",
+    "genre": "Children|Sci-Fi",
+    "released_year": 2011
+  },
+  {
+    "movie_title": "Loop the Loop (Up and Down) (Horem pádem)",
+    "genre": "Comedy",
+    "released_year": 2006
+  },
+  {
+    "movie_title": "Outrage",
+    "genre": "Crime|Drama|Thriller",
+    "released_year": 1994
+  },
+  {
+    "movie_title": "...And Justice for All",
+    "genre": "Drama|Thriller",
+    "released_year": 2012
+  },
+  {
+    "movie_title": "Delta Farce",
+    "genre": "Action|Adventure|Comedy",
+    "released_year": 1996
+  },
+  {
+    "movie_title": "Interceptor",
+    "genre": "Action|Sci-Fi",
+    "released_year": 2007
+  },
+  {
+    "movie_title": "Going Straight",
+    "genre": "Crime|Drama",
+    "released_year": 1992
+  },
+  {
+    "movie_title": "Since Otar Left (Depuis qu'Otar est parti...)",
+    "genre": "Drama",
+    "released_year": 1985
+  },
+  {
+    "movie_title": "Tears of the Black Tiger (Fah talai jone)",
+    "genre": "Action|Comedy|Romance|Western",
+    "released_year": 1991
+  },
+  {
+    "movie_title": "Lovely & Amazing",
+    "genre": "Comedy|Drama|Romance",
+    "released_year": 1994
+  },
+  {
+    "movie_title": "Superbad",
+    "genre": "Comedy",
+    "released_year": 1990
+  },
+  {
+    "movie_title": "Affliction",
+    "genre": "Drama",
+    "released_year": 1996
+  },
+  {
+    "movie_title": "Live Nude Girls",
+    "genre": "Comedy",
+    "released_year": 2003
+  },
+  {
+    "movie_title": "Magnetic Man, The (Magneettimies)",
+    "genre": "Documentary",
+    "released_year": 2012
+  },
+  {
+    "movie_title": "Thirteen Women",
+    "genre": "Drama|Mystery",
+    "released_year": 1973
+  },
+  {
+    "movie_title": "The Deep Six",
+    "genre": "Drama|War",
+    "released_year": 1999
+  },
+  {
+    "movie_title": "Dom Hemingway",
+    "genre": "Comedy|Crime|Drama",
+    "released_year": 1998
+  },
+  {
+    "movie_title": "Off Beat",
+    "genre": "Comedy|Romance",
+    "released_year": 1992
+  },
+  {
+    "movie_title": "Rocky Horror Picture Show, The",
+    "genre": "Comedy|Horror|Musical|Sci-Fi",
+    "released_year": 1995
+  },
+  {
+    "movie_title": "Student, The (El estudiante)",
+    "genre": "Drama",
+    "released_year": 1991
+  },
+  {
+    "movie_title": "Jonestown: The Life and Death of Peoples Temple",
+    "genre": "Documentary",
+    "released_year": 2002
+  },
+  {
+    "movie_title": "Joan of Paris",
+    "genre": "Drama|Romance|War",
+    "released_year": 2010
+  },
+  {
+    "movie_title": "Parked",
+    "genre": "Drama",
+    "released_year": 2005
+  },
+  {
+    "movie_title": "Elektra",
+    "genre": "Action|Adventure|Crime|Drama",
+    "released_year": 2007
+  },
+  {
+    "movie_title": "Vessel of Wrath",
+    "genre": "Drama",
+    "released_year": 2011
+  },
+  {
+    "movie_title": "Shirley Valentine",
+    "genre": "Comedy|Romance",
+    "released_year": 2000
+  },
+  {
+    "movie_title": "The Batman vs. Dracula",
+    "genre": "Action|Animation|Horror|Thriller",
+    "released_year": 2001
+  },
+  {
+    "movie_title": "The Count of Monte Cristo",
+    "genre": "Action|Adventure|Drama|Romance|Thriller",
+    "released_year": 1993
+  },
+  {
+    "movie_title": "Lili Marleen",
+    "genre": "Drama",
+    "released_year": 2000
+  },
+  {
+    "movie_title": "Werner Herzog Eats His Shoe",
+    "genre": "Documentary",
+    "released_year": 2010
+  },
+  {
+    "movie_title": "Ski Party",
+    "genre": "Comedy",
+    "released_year": 2004
+  },
+  {
+    "movie_title": "Cold Trail (Köld slóð)",
+    "genre": "Drama|Mystery|Thriller",
+    "released_year": 2011
+  },
+  {
+    "movie_title": "John Rabe",
+    "genre": "Drama|War",
+    "released_year": 2002
+  },
+  {
+    "movie_title": "Vital Signs",
+    "genre": "Drama",
+    "released_year": 2008
+  },
+  {
+    "movie_title": "Face in the Crowd, A",
+    "genre": "Drama",
+    "released_year": 2010
+  }
+]
